@@ -34,6 +34,10 @@ require "csv"
       end
     end
 
+    def obliterate
+      @entries = []
+    end
+
     # Search AddressBook for a specific entry by name
     def binary_search(name)
       lower = 0
